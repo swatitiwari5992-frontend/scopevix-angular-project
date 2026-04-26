@@ -1,0 +1,1 @@
+# scopevix-angular-project
