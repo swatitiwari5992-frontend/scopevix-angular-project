@@ -1,0 +1,19 @@
+<div class="subscribe-banner">
+    <div class="row">
+        <div class="col-12 text-center sub-content">
+            <p>{{welcomeTitle}}</p>
+            <h1>{{Title}}</h1>
+            <div class="newsletter-form">
+                <form [formGroup]="newsletterForm" (ngSubmit)="onSubmit()">
+                    <input type="email" formControlName="email" placeholder="Enter your email">
+                    <button type="submit" class="primary-btn subscribe-btn">Subscribe</button>
+                </form>
+
+                <!-- Show error if invalid -->
+                @if(newsletterForm.get('email')?.invalid && newsletterForm.get('email')?.touched){
+                <small class="text-danger">Please enter a valid email</small>
+                }
+            </div>
+        </div>
+    </div>
+</div>

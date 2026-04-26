@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="brand-slider-logo">
+                <owl-carousel-o [options]="customOptions">
+                    @for (slide of slides; track slide.id) {
+                    <ng-template carouselSlide>
+                        <img [src]="slide.img" alt="Slide {{slide.id}}" />
+                    </ng-template>
+                    }
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,32 @@
+.newsletter-section {
+    background-color: #3b3b3d;
+    padding: 20px;
+}
+
+.newsletter-title {
+    color: #bc1212;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newsletter-subtitle {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.newsletter-content,
+.newsletter-svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+p.mail-chimp {
+    color: #30308e;
+    padding-right: 140px;
+}
+
+.mail-chimp>span {
+    color: #d84848;
+}

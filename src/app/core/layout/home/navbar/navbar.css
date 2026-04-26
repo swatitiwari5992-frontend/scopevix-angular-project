@@ -1,0 +1,10 @@
+.scopevix-navbar {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+
+.nav-item>a {
+    color: #fff;
+    cursor: pointer;
+}

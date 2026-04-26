@@ -1,0 +1,52 @@
+<div class="career-flywheel-responsive">
+    <div class="fly-header">
+        <h2>{{flytitle}}</h2>
+        <p>{{flysubtitle}}</p>
+    </div>
+    <div class="fly-canvas">
+        <div class="fly-ring"></div>
+        <div class="fly-center-text">{{flycentertext}}</div>
+        @for(flynode of flynodes; track $index){
+        <div class="fly-node n-{{$index+1}}">
+            <i class="fa-solid fa-{{flynode.icon}}"></i>
+            <div class="fly-label">{{flynode.title}}</div>
+        </div>
+        }
+
+        <!-- <div class="fly-node n-2">
+            <i class="fa-solid fa-user-graduate"></i>
+            <div class="fly-label">PG Specialist</div>
+        </div>
+
+        <div class="fly-node n-3">
+            <i class="fa-solid fa-award"></i>
+            <div class="fly-label l-3">PhD Knowledge Creator</div>
+        </div>
+
+        <div class="fly-node n-4">
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="fly-label l-4">Early Professional Apprentice</div>
+        </div>
+
+        <div class="fly-node n-5">
+            <i class="fa-solid fa-users-gear"></i>
+            <div class="fly-label l-5">Mid-Level Professional</div>
+        </div>
+
+        <div class="fly-node n-6">
+            <i class="fa-solid fa-compass"></i>
+            <div class="fly-label l-6">Senior Professional</div>
+        </div>
+
+        <div class="fly-node n-7">
+            <i class="fa-solid fa-rocket"></i>
+            <div class="fly-label l-7">Founder</div>
+        </div>
+
+        <div class="fly-node n-8">
+            <i class="fa-solid fa-tree"></i>
+            <div class="fly-label l-8">Veteran</div>
+        </div> -->
+    </div>
+
+</div>

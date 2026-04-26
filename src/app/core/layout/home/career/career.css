@@ -1,0 +1,73 @@
+.scopevix-career-section {
+    background-color: #000;
+    color: var(--text-light, #fff);
+    padding: 80px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.scopevix-career-section h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.scopevix-career-section h3 {
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.scopevix-career-section p.career-description {
+    font-weight: 400;
+    line-height: 1.6;
+    color: #d1d5db;
+    /* elegant subtle grey for descriptions */
+    margin-bottom: 30px;
+}
+
+.explore-btn,
+.start-btn,
+.browse-btn {
+    max-width: 260px;
+    width: 260px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.browse-btn {
+    margin-bottom: 0;
+}
+
+.grid {
+    column-count: 3;
+    column-gap: 15px;
+    width: 100%;
+}
+
+.grid-item {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    break-inside: avoid;
+    display: inline-block;
+    box-shadow: 0px 0px 4px 5px rgb(255, 0, 0, 0.9);
+}
+
+.grid-item img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        column-count: 1;
+    }
+}
