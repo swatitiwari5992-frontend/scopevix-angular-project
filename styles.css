@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+:root {
+    --primary: #2563eb;
+    --secondary: #fefefc;
+    /*dark sidebar */
+    --bg: #f8fafc;
+    --card-bg: #fff;
+    --text-dark: #000;
+    --text-light: #fff;
+    --border: #e5e7eb;
+    --button-primary: linear-gradient(90deg, rgba(238, 169, 16, 1) 20%, rgba(251, 127, 31, 1) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+    color: var(--text-dark);
+
+}
+
+.container {
+    position: relative;
+}
+
+.primary-btn {
+    background: var(--button-primary);
+    color: var(--text-light);
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.secondry-btn {
+    background: var(--secondary);
+    color: var(--text-dark);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
